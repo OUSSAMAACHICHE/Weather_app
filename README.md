@@ -16,6 +16,9 @@ This is a simple weather application built with React. It allows users to search
 - Loading spinner while fetching data.
 - Error handling for invalid city names or API issues.
 
+  ## Links
+  - [Netlify Live demo](https://weather-app-with-raact.netlify.app/)
+
 ## Technologies Used
 
 - **React**: For building the user interface.
