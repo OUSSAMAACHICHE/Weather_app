@@ -102,7 +102,7 @@ function App() {
                 height: "100%",
               }}
             >
-              <ClipLoader color="white" size={50} />
+              <ClipLoader color="white" size={100} />
             </div>
           ) : (
             <WeatherCard weather={weather} now={now} />

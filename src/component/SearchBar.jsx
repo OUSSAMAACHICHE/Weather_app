@@ -3,7 +3,8 @@ import { Button } from "@mui/material";
 
 export default function SearchBar({ city, setCity, getWeather }) {
   return (
-    <div>
+    <div style={{ padding: '10px', display: 'flex', gap: '10px', alignItems: 'center'}}>
+      
       <input
         style={{
           backgroundColor: "black",
@@ -11,6 +12,7 @@ export default function SearchBar({ city, setCity, getWeather }) {
           height: "30px",
           border: "none",
           color: "white",
+          width: "100%",
         }}
         placeholder="Type here to search."
         value={city}
